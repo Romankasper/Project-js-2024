@@ -1,0 +1,39 @@
+#button{
+    margin: 20px 0;;
+    width: 90%;
+    height: 40px;
+    font-size: 30px;
+}
+.wrapperButton{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+#wrapper{
+    background-color: paleturquoise;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+
+}
+#posts{
+    grid-template-columns: repeat(5,1fr);
+    gap: 20px;
+
+}
+.postDiv {
+    background-color: #736a6a;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    font-size: 20px;
+}
+.postDiv button{
+    width: 150px;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: #b1e47f;
+}
